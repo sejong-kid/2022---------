@@ -9,6 +9,96 @@ body {
   font-size: 30px;
 }
 
-button {
-  background: url("/lucky-bag.png") no-repeat;
+
+@keyframes materialRipple {
+  0% {     transform: translate(-50%, -50%) scale(1)
+  }
+
+  100% {
+      transform: translate(-50%, -50%) scale(var(--material-scale));
+      opacity: 0
+  }
+}
+
+.material-ripple {
+  position: relative;
+  overflow: hidden;
+  /* Additional */
+  display: inline-block;
+  padding: 5px 20px;
+  color: #000;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  border: none;
+  border-radius: 60px;
+  background-color: white;
+}
+
+.material-ripple .animate {
+  width: 2px;
+  height: 2px;
+  position: absolute;
+  border-radius: 50%;
+  animation: materialRipple 0.9s linear
+}
+
+img {
+  scale: 50%;
+  margin-top: -60px;
+  margin-bottom: -60px;
+}
+
+.title {
+  margin-top: 20px;
+  display: inline-block;
+}
+.text_box {
+  font-family: 'GongGothicMedium';
+  margin-top: -90px;
+  font-size: 30px;
+}
+#result {
+  display: inline-block;
+  font-family: 'GongGothicMedium';
+  font-size: 90px;
+}
+
+.count_box p {
+  font-family: 'KIMM_Bold';
+  font-size: 90px;
+  margin-top: 10px;
+}
+
+input{
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  background: none;
+  scale: 400%;
+  font-family: 'GongGothicMedium';
+  color: rgb(255, 71, 71);
+}
+
+
+.home {
+  font-family: 'GongGothicMedium';
+  text-decoration: none;
+  font-size: 20px;
+
+  margin-top: 40px;
+  width: 100px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.274);
+  text-decoration: none;
+  transition: all 0.5s; 
+  color: rgb(71, 30, 255);
+}
+.home:hover{
+  color: white;
+  background: rgba(0, 3, 151, 0.753);
+  transition: all 0.5s;
+  transform: scale(1.3);
 }

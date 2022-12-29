@@ -1,0 +1,48 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  font-family: 'GongGothicMedium';
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+.title_2 {
+  font-size: 30px;
+  font-family: 'GongGothicMedium';
+  color: rgb(255, 98, 98);
+}
+
+.title_3 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: 'GmarketSansMedium';
+}
+
+p {
+  margin-top: 20px;
+}
+
+button {
+  font-family: 'GongGothicMedium';
+  text-decoration: none;
+  font-size: 40px;
+  margin-top: 40px;
+  width: 300px;
+  height: 90px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.274);
+  text-decoration: none;
+  transition: all 0.5s; 
+  color: rgb(71, 30, 255);
+}
+button:hover{
+  color: white;
+  background: rgba(0, 3, 151, 0.753);
+  transition: all 0.5s;
+  transform: scale(1.3);
+}

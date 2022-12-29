@@ -36,11 +36,11 @@ setTimeout(function () {
 
 setTimeout(function(){
   Swal.fire({
-    title: 'Sweet!',
-    text: 'Modal with a custom image.',
-    imageUrl: 'https://unsplash.it/400/200',
-    imageWidth: 400,
-    imageHeight: 200,
+    title: '새해 복 많이 받으세요!',
+    text: '누르신 숫자보다 갑절로 많이 받으세요~',
+    imageUrl: './rabit.jpg',
+    imageWidth: 800,
+    imageHeight: 300,
     imageAlt: 'Custom image',
   })
 }, 30000);

@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="2page.css">
+  <link rel="stylesheet" href="font.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,28 +11,35 @@
 </head>
 
 <body>
+
+  <div class="box">
+    <button class="material-ripple" onclick='count("plus")' value='+'>
+      <img src="lucky-bag.png" type="button" >
+    </button>
+  </div>
+  <div class="count_box">
+    <div id='result'>0</div>
+    <p class="count">빨리빨리</p>
+  </div>
   <div class="title">
     <div class="text_box">
       <p>
-        30초 안에 복주머니를 눌러보세요
+        <input id="Timer" type="text" value="st" readonly />
+      </p>
+    </div>
+    <div class="time">
+      <p class="tt_1">
+        
       </p>
     </div>
   </div>
-  <p>
-    <label for="Timer">남은 시간:</label>
-  <p>
-    <input id="Timer" type="text" value="st" readonly />
-  </p>
-  </p>
-  <img src="lucky-bag.png" type="button" onclick='count("plus")' value='+' />
-  <div id='result'>0</div>
   <div class="back_btn">
     <div class="btn">
-      <button>
-        <a href="index.html">
+      <a href="index.html">
+      <button class="home">
           홈으로
-        </a>
-      </button>
+        </button>
+      </a>
     </div>
   </div>
   <!-- onclick="increase()" : 클릭할 때 함수를 호출해라-->
