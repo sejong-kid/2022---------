@@ -1,0 +1,14 @@
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#Timer {
+  border: none;
+  text-align: center;
+  font-size: 30px;
+}
+
+button {
+  background: url("/lucky-bag.png") no-repeat;
+}
