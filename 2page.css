@@ -1,3 +1,7 @@
+@media all and (min-width:768px) and (max-width:1080px) {
+  
+}
+
 body {
   margin: 0 auto;
   text-align: center;
@@ -8,7 +12,6 @@ body {
   text-align: center;
   font-size: 30px;
 }
-
 
 @keyframes materialRipple {
   0% {     transform: translate(-50%, -50%) scale(1)
@@ -52,31 +55,30 @@ img {
   margin-top: 20px;
   display: inline-block;
 }
-.text_box {
-  font-family: 'GongGothicMedium';
-  margin-top: -90px;
-  font-size: 30px;
-}
+
 #result {
+  position: relative;
   display: inline-block;
   font-family: 'GongGothicMedium';
   font-size: 90px;
+  margin-top: -40px;
 }
 
 .count_box p {
   font-family: 'KIMM_Bold';
-  font-size: 90px;
-  margin-top: 10px;
+  font-size: 30px;
+  margin-top: -10px;
 }
 
 input{
-  display: inline-block;
+  display: inline-block;  
   width: 80px;
   text-align: center;
   background: none;
-  scale: 400%;
+  scale: 300%;
   font-family: 'GongGothicMedium';
   color: rgb(255, 71, 71);
+  margin-top: -40px;
 }
 
 
@@ -84,8 +86,7 @@ input{
   font-family: 'GongGothicMedium';
   text-decoration: none;
   font-size: 20px;
-
-  margin-top: 40px;
+  margin-top: 30px;
   width: 100px;
   height: 60px;
   border-radius: 20px;
