@@ -37,13 +37,13 @@ setTimeout(function () {
 setTimeout(function(){
   Swal.fire({
     title: '새해 복 많이 받으세요!',
-    text: '누르신 숫자보다 갑절로 많이 받으세요~',
+    text: '누르신 숫자보다 많은 복 받으시길 기도하겠습니다. 배찬호 올림',
     imageUrl: './rabit.jpg',
     imageWidth: 800,
     imageHeight: 300,
     imageAlt: 'Custom image',
   })
-}, 30000);
+}, 32000);
 
 function startButton() {
   TIMER();
