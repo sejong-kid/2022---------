@@ -1,6 +1,52 @@
-@media all and (min-width:768px) and (max-width:1080px) {
-  
+@media screen and (max-width: 768px) {
+  .main_title{
+    margin-top: 200px;
+  }
+  .title_text {
+    font-size: 120px;
+    letter-spacing: -5px;
+    margin-bottom: -30px;
+  }
+  .txt {
+    font-size: 90px;
+  }
+  #btn{
+    line-height: 42px;
+    text-shadow: 3px 3px 3px black;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+  }
+  .title_2 button{
+    margin-top: 30px;
+    border-radius: 30px;
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+  }
+  .title_2{
+    text-align: center;
+    margin: auto;
+    height: 300px;
+    width: 350px;
+    background-color: rgb(65, 65, 65);
+    border-radius: 30px;
+  }  
+  .sub_title{
+    color: white;
+    padding-top: 30px;
+    margin-top: 40px;
+    font-size: 30px;
+  }
+  .main_text{
+    font-size: 25px;
+  }
 }
+
 
 body {
   margin: 0 auto;
@@ -25,11 +71,11 @@ body {
   font-family: 'GmarketSansMedium';
 }
 
-p {
+.txt {
   margin-top: 20px;
 }
 
-button {
+.btn button {
   font-family: 'GongGothicMedium';
   text-decoration: none;
   font-size: 40px;
@@ -44,9 +90,9 @@ button {
   transition: all 0.5s; 
   color: rgb(71, 30, 255);
 }
-button:hover{
+.btn button:hover{
   color: white;
-  background: rgba(0, 3, 151, 0.753);
+  background: rgb(219, 78, 102);
   transition: all 0.5s;
   transform: scale(1.3);
 }

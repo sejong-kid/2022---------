@@ -1,3 +1,9 @@
+@media screen {
+  .sub_title{
+    font-size: 2px;
+  }
+}
+
 body {
   margin: 0 auto;
   text-align: center;
