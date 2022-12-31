@@ -43,7 +43,7 @@ setTimeout(function(){
     imageHeight: 300,
     imageAlt: 'Custom image',
   })
-}, 32000);
+}, 33000);
 
 function startButton() {
   TIMER();
